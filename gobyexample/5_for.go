@@ -14,6 +14,7 @@ func main() {
 	for j := 7; j <= 9; j++ {
 		fmt.Println(j)
 	}
+
 	fmt.Print(j)
 
 	for {
@@ -27,5 +28,17 @@ func main() {
 		}
 
 		fmt.Println(n)
+	}
+
+	for ; i < 10; i++ {
+		fmt.Println(i * i)
+	}
+
+	for i := 1; i < 10; i++ {
+		for j := 1; j < 10; j++ {
+			fmt.Println(j)
+		}
+
+		fmt.Println()
 	}
 }

@@ -46,4 +46,11 @@ func main() {
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("heu")
+
+	switch num := 6; num % 2 == 0 {
+	case true:
+		fmt.Print("true")
+	case false:
+		fmt.Print("false")
+	}
 }

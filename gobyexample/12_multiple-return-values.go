@@ -1,9 +1,9 @@
-package main 
+package main
 
 import "fmt"
 
 func vals() (int, int) {
-	return 3,
+	return 3, 3
 }
 
 func main() {
